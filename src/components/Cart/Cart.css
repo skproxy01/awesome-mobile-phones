@@ -1,0 +1,11 @@
+.cart-container{
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 10px;
+}
+
+.cart-container img{
+  width: 100px;
+  height: 100px;
+}

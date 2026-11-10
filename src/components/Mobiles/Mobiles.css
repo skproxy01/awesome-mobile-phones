@@ -1,0 +1,10 @@
+.mobile-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.mobile-container img {
+  width: 250px;
+  height: 250px;
+}
