@@ -10,6 +10,7 @@ function App() {
   return (
     <>
       <h1>Buy Awesome Mobile Phones</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veniam, itaque maiores, tenetur perferendis ducimus perspiciatis unde doloremque culpa error possimus, assumenda ad suscipit praesentium tempora nulla? Nam, odio eum!</p>
       <Suspense fallback={<h3>Data Are Loading...</h3>}>
         <Mobiles
           mobilePromises={mobilePromises}>
